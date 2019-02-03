@@ -1,0 +1,16 @@
+{
+  "name": "@wayline/config",
+  "private": true,
+  "version": "1.1.2",
+  "description": "Universal configuration data for Wayline",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "wayline"
+  ],
+  "author": "Cyberscape <info@cyberscape.co>",
+  "license": "MIT",
+  "dependencies": {
+    "toml": "^3.0.0"
+  }
+}
