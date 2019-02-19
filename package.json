@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.1.2",
   "description": "Universal configuration data for Wayline",
-  "main": "index.js",
+  "main": "module.js",
   "scripts": {},
   "keywords": [
     "wayline"
