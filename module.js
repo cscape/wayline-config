@@ -3,6 +3,7 @@
 module.exports = {
   "basefeeds": {
     "MiamiDadeTransit": "https://www.miamidade.gov/transit/WebServices/",
+    "MiamiDadeTransitVerbose": "https://www.miamidade.gov/transit/mobile/xml/",
     "Brightline": "https://www.gobrightline.com/api/",
     "BrightlineSystem": "https://luxapi.verbinteractive.com/api/",
     "TSOMobile": "https://rest.tsoapi.com/",
