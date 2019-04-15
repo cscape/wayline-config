@@ -162,27 +162,45 @@ id = 34423
 
 [[TSOMobile]]
 name = 'Miami-Dade Transit'
-alias = 'Circulator'
+alias = '@MiamiDadeTransit' # Special
 id = 30109
+  # These routes may be also tracked by MDT, be wary of data overlap.
+  # Buses here have names like "Bus 423" which corresponds
+  # to "LSF423" from Miami-Dade Transit XML Feeds.
   [TSOMobile.routeMap]
   '83299' = '20895' # Sweetwater
   '83294' = '20894' # Overtown
   '92084' = '20893' # Skylake
   '94171' = '20884' # Biscayne Gardens
   '81711' = '20900' # Brownsville
+  '98191' = '21033' # Princeton
+  '81712' = '20904' # North Pointe
+  '81709' = '20860' # Westchester
   '92086' = '20851' # 56: CHILDREN HOSP TO 162 AVE VIA 56 ST
   '92092' = '20854' # 71: DOLPHIN MALL-MDC KEND.VIA 107/112AV
   '83348' = '20902' # 272: SUNSET KAT
   '82479' = '20819' # 1: SO.MIAMI HTS-PERRINE VIA SOUTHLAND
+  '81710' = '20866' # 101: A-VIA VENETIAN CAUSEWAY
+  '98748' = '20876' # 115: MID-NORTH-BEACH CONNECTION
+  '83276' = '20889' # 202: LITTLE HAITI CONNECTION
+  '83339' = '20898' # 246: NIGHT OWL
+  '83303' = '20901' # 267: LUDLAM LIMITED
+  '82499' = '20835' # 29: HIALEAH TRIANGLE-MIAMI LAKES
+  '59434' = '20910' # 301: DADE/MONROE EXPRESS
+  '59545' = '20911' # 302: CARD SOUND EXPRESS
+  '83359' = '20913' # 344: MDC HOMESTEAD TO FLA CITY
+  '92089' = '20855' # 72A: SO.MIAMI-BENT TREE/162AV VIA 72 ST
+  '92090' = '20855' # 72: SO.MIAMI-BENT TREE/162AV VIA 72 ST
+  '99843' = '20840' # 35: MDC KENDALL-FLA.CITY VIA CUTLER BAY
+  '99847' = '20840' # 35A: MDC KENDALL-FLA.CITY VIA CUTLER BAY
+  '81708' = '20847' # 46: LIBERTY CITY CONNECTION
 
   [TSOMobile.headsigns]
   '83299' = 'Sweetwater Trolley'
   '83294' = 'Overtown Circulator'
   '92084' = 'Skylake Circulator'
   '94171' = 'Biscayne Gardens Circulator'
-  '81711' = 'Brownsville'
-  # '92086' Normal bus
-  # '92092' Normal bus
-  # '83348' Normal bus
-  # '82479' Normal bus
-
+  '81711' = 'Brownsville Circulator'
+  '98191' = 'Princeton Circulator'
+  '81712' = 'North Pointe Circulator'
+  '81709' = 'Westchester Circulator'
