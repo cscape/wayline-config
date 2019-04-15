@@ -10,15 +10,6 @@ module.exports = {
     "CoralGablesETA": "http://cgpublic.etaspot.net/service.php",
     "TriRailETA": "http://trirailpublic.etaspot.net/service.php"
   },
-  "WaylineEndpointAliases": {
-    "MDT": {
-      "MoverMapShape": "shapes/mover",
-      "MoverMapShapeLoops": "mover/loops",
-      "MoverStations": "mover/stations",
-      "MoverTracker": "mover/arrivals",
-      "MoverTrains": "mover/locations"
-    }
-  },
   "TSOMobile": [
     {
       "name": "Miami Beach",
