@@ -179,25 +179,45 @@ module.exports = {
     },
     {
       "name": "Miami-Dade Transit",
-      "alias": "Circulator",
+      "alias": "@MiamiDadeTransit",
       "id": 30109,
       "routeMap": {
+        "59434": "20910",
+        "59545": "20911",
+        "81708": "20847",
+        "81709": "20860",
+        "81710": "20866",
         "81711": "20900",
+        "81712": "20904",
         "82479": "20819",
+        "82499": "20835",
+        "83276": "20889",
         "83294": "20894",
         "83299": "20895",
+        "83303": "20901",
+        "83339": "20898",
         "83348": "20902",
+        "83359": "20913",
         "92084": "20893",
         "92086": "20851",
+        "92089": "20855",
+        "92090": "20855",
         "92092": "20854",
-        "94171": "20884"
+        "94171": "20884",
+        "98191": "21033",
+        "98748": "20876",
+        "99843": "20840",
+        "99847": "20840"
       },
       "headsigns": {
-        "81711": "Brownsville",
+        "81709": "Westchester Circulator",
+        "81711": "Brownsville Circulator",
+        "81712": "North Pointe Circulator",
         "83294": "Overtown Circulator",
         "83299": "Sweetwater Trolley",
         "92084": "Skylake Circulator",
-        "94171": "Biscayne Gardens Circulator"
+        "94171": "Biscayne Gardens Circulator",
+        "98191": "Princeton Circulator"
       }
     }
   ]
