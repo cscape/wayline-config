@@ -137,16 +137,52 @@ id = 24560
 
 [[TSOMobile]]
 name = 'Bal Harbour'
+alias = 'Bal Harbour Express Shuttle'
 id = 34323
+  [TSOMobile.routeMap]
+  '69516' = '17796'
+  [TSOMobile.headsigns]
+  '69516' = 'Bal Harbour'
 
 [[TSOMobile]]
 name = 'Palmetto Bay'
+alias = 'Village of Palmetto Bay IBUS'
 id = 49454
+  [TSOMobile.routeMap]
+  '95974' = '20408'
+  [TSOMobile.headsigns]
+  # '95974' Determined by trips.txt, this is a normal bus
 
 [[TSOMobile]]
 name = 'South Miami'
 id = 34423
+  [TSOMobile.routeMap]
+
+  [TSOMobile.headsigns]
 
 [[TSOMobile]]
 name = 'Miami-Dade Transit'
+alias = 'Circulator'
 id = 30109
+  [TSOMobile.routeMap]
+  '83299' = '20895' # Sweetwater
+  '83294' = '20894' # Overtown
+  '92084' = '20893' # Skylake
+  '94171' = '20884' # Biscayne Gardens
+  '81711' = '20900' # Brownsville
+  '92086' = '20851' # 56: CHILDREN HOSP TO 162 AVE VIA 56 ST
+  '92092' = '20854' # 71: DOLPHIN MALL-MDC KEND.VIA 107/112AV
+  '83348' = '20902' # 272: SUNSET KAT
+  '82479' = '20819' # 1: SO.MIAMI HTS-PERRINE VIA SOUTHLAND
+
+  [TSOMobile.headsigns]
+  '83299' = 'Sweetwater Trolley'
+  '83294' = 'Overtown Circulator'
+  '92084' = 'Skylake Circulator'
+  '94171' = 'Biscayne Gardens Circulator'
+  '81711' = 'Brownsville'
+  # '92086' Normal bus
+  # '92092' Normal bus
+  # '83348' Normal bus
+  # '82479' Normal bus
+
