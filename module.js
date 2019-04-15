@@ -23,16 +23,14 @@ module.exports = {
     {
       "name": "Miami Beach",
       "id": 22844,
-      "routeMap": [
-        {
-          "40756": "16894",
-          "72486": "18787",
-          "73772": "18786",
-          "85862": "19935",
-          "85863": "19935",
-          "85864": "19935"
-        }
-      ],
+      "routeMap": {
+        "40756": "16894",
+        "72486": "18787",
+        "73772": "18786",
+        "85862": "19935",
+        "85863": "19935",
+        "85864": "19935"
+      },
       "headsigns": [
         {
           "40756": "North Beach",
@@ -79,26 +77,86 @@ module.exports = {
     },
     {
       "name": "Doral",
-      "id": 2500
+      "id": 2500,
+      "routeMap": [
+        {
+          "35929": "16895",
+          "95835": "16896",
+          "95836": "16897"
+        }
+      ],
+      "headsigns": [
+        {
+          "35929": "Route 1",
+          "95835": "Route 2",
+          "95836": "Route 3"
+        }
+      ]
     },
     {
       "name": "North Miami",
-      "id": 24600
+      "id": 24600,
+      "routeMap": [
+        {
+          "91340": "17792"
+        }
+      ],
+      "headsigns": [
+        {
+          "91281": "Green",
+          "91301": "Blue",
+          "91340": "Orange",
+          "91398": "Red"
+        }
+      ]
     },
     {
       "name": "Aventura",
-      "id": 26082
+      "id": 26082,
+      "routeMap": [
+        {
+          
+        }
+      ],
+      "headsigns": [
+        {
+          
+        }
+      ]
     },
     {
       "name": "Sunny Isles Beach",
-      "id": 31344
+      "id": 31344,
+      "routeMap": [
+        {
+          
+        }
+      ],
+      "headsigns": [
+        {
+          
+        }
+      ]
     },
     {
       "name": "North Miami Beach",
-      "id": 31934
+      "id": 31934,
+      "routeMap": [
+        {
+          "76332": "18112"
+        }
+      ],
+      "headsigns": [
+        {
+          "76332": "Route A",
+          "76334": "Route B",
+          "76338": "Route C"
+        }
+      ]
     },
     {
       "name": "Pinecrest",
+      "alias": "Pinecrest People Mover",
       "id": 24560
     },
     {

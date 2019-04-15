@@ -19,111 +19,121 @@ MoverTrains         = 'mover/locations'
 name = 'Miami Beach'
 id = 22844
   # Left is TSO Route ID - Right is Miami-Dade Transit GTFS Route ID
-  [[TSOMobile.routeMap]]
-  "73772" = "18786" # Collins Express
-  "72486" = "18787" # Mid Beach Loop
-  "40756" = "16894" # North Beach Loop
-  "85862" = "19935" # SOBE Loop A (Clockwise)
-  "85863" = "19935" # SOBE Loop B (Counter-Clockwise)
-  "85864" = "19935" # SOBE Loop via 11th St
+  [TSOMobile.routeMap]
+  '73772' = '18786' # Collins Express
+  '72486' = '18787' # Mid Beach Loop
+  '40756' = '16894' # North Beach Loop
+  '85862' = '19935' # SOBE Loop A (Clockwise)
+  '85863' = '19935' # SOBE Loop B (Counter-Clockwise)
+  '85864' = '19935' # SOBE Loop via 11th St
 
-  [[TSOMobile.headsigns]]
-  "73772" = "Collins Link"
-  "72486" = "Middle Beach"
-  "40756" = "North Beach"
-  "85862" = "SOBE Loop A"
-  "85863" = "SOBE Loop B"
-  "85864" = "SOBE Loop via 11th St"
+  [TSOMobile.headsigns]
+  '73772' = 'Collins Link'
+  '72486' = 'Middle Beach'
+  '40756' = 'North Beach'
+  '85862' = 'SOBE Loop A'
+  '85863' = 'SOBE Loop B'
+  '85864' = 'SOBE Loop via 11th St'
 
 [[TSOMobile]]
 name = 'Miami'
+alias = 'Miami Trolley'
 id = 21241
-  [[TSOMobile.routeMap]]
-  "71269" = "16889" # Allapattah
-  "71276" = "16885" # Biscayne
-  "101446" = "16885" # Biscayne (Detoured: remove after 4/21/19)
-  "71304" = "16886" # Brickell
-  # "95029" No coconut grove route
-  "71322" = "16887" # Coral Way
-  # "94590" No flagami
-  "71342" = "16891" # Health District
-  # "88467" No little haiti 
-  # "75187" No little havana
-  # "97325" No cross bay express
-  "71344" = "16890" # Overtown
-  "71345" = "16892" # Stadium (circulates Health District to Marlins Park)
+  [TSOMobile.routeMap]
+  '71269' = '16889' # Allapattah
+  '71276' = '16885' # Biscayne
+  '101446' = '16885' # Biscayne (Detoured: remove after 4/21/19)
+  '71304' = '16886' # Brickell
+  # '95029' No coconut grove route
+  '71322' = '16887' # Coral Way
+  # '94590' No flagami
+  '71342' = '16891' # Health District
+  # '88467' No little haiti 
+  # '75187' No little havana
+  # '97325' No cross bay express
+  '71344' = '16890' # Overtown
+  '71345' = '16892' # Stadium (circulates Health District to Marlins Park)
 
-  [[TSOMobile.headsigns]]
-  "71269" = "Allapattah"
-  "71276" = "Biscayne"
-  "101446" = "Biscayne (Detour)" # (remove after 4/21/19)
-  "71304" = "Brickell"
-  "95029" = "Coconut Grove"
-  "71322" = "Coral Way"
-  "94590" = "Flagami"
-  "71342" = "Health District"
-  "88467" = "Little Haiti"
-  "75187" = "Little Havana"
-  "97325" = "Cross Bay Express"
-  "71344" = "Overtown"
-  "71345" = "Stadium"
+  [TSOMobile.headsigns]
+  '71269' = 'Allapattah'
+  '71276' = 'Biscayne'
+  '101446' = 'Biscayne (Detour)' # (remove after 4/21/19)
+  '71304' = 'Brickell'
+  '95029' = 'Coconut Grove'
+  '71322' = 'Coral Way'
+  '94590' = 'Flagami'
+  '71342' = 'Health District'
+  '88467' = 'Little Haiti'
+  '75187' = 'Little Havana'
+  '97325' = 'Cross Bay Express'
+  '71344' = 'Overtown'
+  '71345' = 'Stadium'
 
 [[TSOMobile]]
 name = 'Doral'
+alias = 'Doral Trolley'
 id = 2500
-  [[TSOMobile.routeMap]]
-  "35929" = "16895" # Route 1
-  "95835" = "16896" # Route 2
-  "95836" = "16897" # Route 3
+  [TSOMobile.routeMap]
+  '35929' = '16895' # Route 1
+  '95835' = '16896' # Route 2
+  '95836' = '16897' # Route 3
 
-  [[TSOMobile.headsigns]]
-  "35929" = "Route 1"
-  "95835" = "Route 2"
-  "95836" = "Route 3"
+  [TSOMobile.headsigns]
+  '35929' = 'Route 1'
+  '95835' = 'Route 2'
+  '95836' = 'Route 3'
 
 [[TSOMobile]]
 name = 'North Miami'
+alias = 'NOMI Express'
 id = 24600
-  [[TSOMobile.routeMap]]
-  # "91301" Blue
-  # "91281" Green
-  "91340" = "17792" # Orange
-  # "91398" Red
+  [TSOMobile.routeMap]
+  # '91301' Blue
+  # '91281' Green
+  '91340' = '17792' # Orange
+  # '91398' Red
 
-  [[TSOMobile.headsigns]]
-  "91301" = "Blue"
-  "91281" = "Green"
-  "91340" = "Orange"
-  "91398" = "Red"
+  [TSOMobile.headsigns]
+  '91301' = 'Blue'
+  '91281' = 'Green'
+  '91340' = 'Orange'
+  '91398' = 'Red'
 
 [[TSOMobile]]
 name = 'Aventura'
+alias = 'Aventura Express Shuttle Bus'
 id = 26082
-  [[TSOMobile.routeMap]]
+  [TSOMobile.routeMap]
   # No links available w/ Miami-Dade Transit GTFS
-  [[TSOMobile.headsigns]]
+  [TSOMobile.headsigns]
 
 [[TSOMobile]]
 name = 'Sunny Isles Beach'
+alias = 'Sunny Isles Beach Shuttle'
 id = 31344
-  [[TSOMobile.routeMap]]
+  [TSOMobile.routeMap]
 
-  [[TSOMobile.headsigns]]
+  [TSOMobile.headsigns]
 
 [[TSOMobile]]
 name = 'North Miami Beach'
+alias = 'NMB Line'
 id = 31934
-  [[TSOMobile.routeMap]]
-  "76332" = "18112" # Route A (GTFS lists this as "B-Line" even though it's A)
+  [TSOMobile.routeMap]
+  '76332' = '18112' # Route A (GTFS lists this as 'B-Line' even though it's A)
 
-  [[TSOMobile.headsigns]]
-  "76332" = "Route A"
-  "76334" = "Route B"
-  "76338" = "Route C"
+  [TSOMobile.headsigns]
+  '76332' = 'Route A'
+  '76334' = 'Route B'
+  '76338' = 'Route C'
 
 [[TSOMobile]]
 name = 'Pinecrest'
+alias = 'Pinecrest People Mover'
 id = 24560
+  [TSOMobile.routeMap]
+
+  [TSOMobile.headsigns]
 
 [[TSOMobile]]
 name = 'Miami Lakes'
