@@ -15,19 +15,60 @@ MoverStations       = 'mover/stations'
 MoverTracker        = 'mover/arrivals'
 MoverTrains         = 'mover/locations'
 
-[AgencyKeys]
-TSOMobile = [
-  { name = 'Miami-Dade Transit', id = 30109 },
-  { name = 'City of Miami', id = 21241 },
-  { name = 'Miami Beach', id = 22844 },
-  { name = 'Doral', id = 2500 },
-  { name = 'North Miami', id = 24600 },
-  { name = 'Aventura', id = 26082 },
-  { name = 'Sunny Isles Beach', id = 31344 },
-  { name = 'North Miami Beach', id = 31934 },
-  { name = 'Pinecrest', id = 24560 },
-  { name = 'Miami Lakes', id = 21324 },
-  { name = 'Bal Harbour', id = 34323 },
-  { name = 'Palmetto Bay', id = 49454 },
-  { name = 'South Miami', id = 34423 }
-]
+[[TSOMobile]]
+name = 'Miami-Dade Transit'
+id = 30109
+  # Left is TSO Route ID - Right is Miami-Dade Transit GTFS Route ID
+  [[TSOMobile.routeMap]]
+  "73772" = "18786" # Collins Express
+  "72486" = "18787" # Mid Beach Loop
+  "40756" = "16894" # North Beach Loop
+
+[[TSOMobile]]
+name = 'City of Miami'
+id = 21241
+
+[[TSOMobile]]
+name = 'Miami Beach'
+id = 22844
+
+[[TSOMobile]]
+name = 'Doral'
+id = 2500
+
+[[TSOMobile]]
+name = 'North Miami'
+id = 24600
+
+[[TSOMobile]]
+name = 'Aventura'
+id = 26082
+
+[[TSOMobile]]
+name = 'Sunny Isles Beach'
+id = 31344
+
+[[TSOMobile]]
+name = 'North Miami Beach'
+id = 31934
+
+[[TSOMobile]]
+name = 'Pinecrest'
+id = 24560
+
+[[TSOMobile]]
+name = 'Miami Lakes'
+id = 21324
+
+[[TSOMobile]]
+name = 'Bal Harbour'
+id = 34323
+
+[[TSOMobile]]
+name = 'Palmetto Bay'
+id = 49454
+
+[[TSOMobile]]
+name = 'South Miami'
+id = 34423
+
