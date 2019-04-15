@@ -199,6 +199,7 @@ module.exports = {
         "83348": "20902",
         "83359": "20913",
         "92084": "20893",
+        "92085": "20896",
         "92086": "20851",
         "92089": "20855",
         "92090": "20855",
@@ -216,6 +217,7 @@ module.exports = {
         "83294": "Overtown Circulator",
         "83299": "Sweetwater Trolley",
         "92084": "Skylake Circulator",
+        "92085": "Bunche Park Circulator",
         "94171": "Biscayne Gardens Circulator",
         "98191": "Princeton Circulator"
       }
