@@ -16,21 +16,57 @@ MoverTracker        = 'mover/arrivals'
 MoverTrains         = 'mover/locations'
 
 [[TSOMobile]]
-name = 'Miami-Dade Transit'
-id = 30109
+name = 'Miami Beach'
+id = 22844
   # Left is TSO Route ID - Right is Miami-Dade Transit GTFS Route ID
   [[TSOMobile.routeMap]]
   "73772" = "18786" # Collins Express
   "72486" = "18787" # Mid Beach Loop
   "40756" = "16894" # North Beach Loop
+  "85862" = "19935" # SOBE Loop A (Clockwise)
+  "85863" = "19935" # SOBE Loop B (Counter-Clockwise)
+  "85864" = "19935" # SOBE Loop via 11th St
+
+  [[TSOMobile.headsigns]]
+  "73772" = "Collins Link"
+  "72486" = "Middle Beach"
+  "40756" = "North Beach"
+  "85862" = "SOBE Loop A"
+  "85863" = "SOBE Loop B"
+  "85864" = "SOBE Loop via 11th St"
 
 [[TSOMobile]]
-name = 'City of Miami'
+name = 'Miami'
 id = 21241
+  [[TSOMobile.routeMap]]
+  "71269" = "16889" # Allapattah
+  "71276" = "16885" # Biscayne
+  "101446" = "16885" # Biscayne (Detoured: remove after 4/21/19)
+  "71304" = "16886" # Brickell
+  # "95029" No coconut grove route
+  "71322" = "16887" # Coral Way
+  # "94590" No flagami
+  "71342" = "16891" # Health District
+  # "88467" No little haiti 
+  # "75187" No little havana
+  # "97325" No cross bay express
+  "71344" = "16890" # Overtown
+  "71345" = "16892" # Stadium (circulates Health District to Marlins Park)
 
-[[TSOMobile]]
-name = 'Miami Beach'
-id = 22844
+  [[TSOMobile.headsigns]]
+  "71269" = "Allapattah"
+  "71276" = "Biscayne"
+  "101446" = "Biscayne (Detour)" # (remove after 4/21/19)
+  "71304" = "Brickell"
+  "95029" = "Coconut Grove"
+  "71322" = "Coral Way"
+  "94590" = "Flagami"
+  "71342" = "Health District"
+  "88467" = "Little Haiti"
+  "75187" = "Little Havana"
+  "97325" = "Cross Bay Express"
+  "71344" = "Overtown"
+  "71345" = "Stadium"
 
 [[TSOMobile]]
 name = 'Doral'
@@ -72,3 +108,6 @@ id = 49454
 name = 'South Miami'
 id = 34423
 
+[[TSOMobile]]
+name = 'Miami-Dade Transit'
+id = 30109
