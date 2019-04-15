@@ -71,22 +71,55 @@ id = 21241
 [[TSOMobile]]
 name = 'Doral'
 id = 2500
+  [[TSOMobile.routeMap]]
+  "35929" = "16895" # Route 1
+  "95835" = "16896" # Route 2
+  "95836" = "16897" # Route 3
+
+  [[TSOMobile.headsigns]]
+  "35929" = "Route 1"
+  "95835" = "Route 2"
+  "95836" = "Route 3"
 
 [[TSOMobile]]
 name = 'North Miami'
 id = 24600
+  [[TSOMobile.routeMap]]
+  # "91301" Blue
+  # "91281" Green
+  "91340" = "17792" # Orange
+  # "91398" Red
+
+  [[TSOMobile.headsigns]]
+  "91301" = "Blue"
+  "91281" = "Green"
+  "91340" = "Orange"
+  "91398" = "Red"
 
 [[TSOMobile]]
 name = 'Aventura'
 id = 26082
+  [[TSOMobile.routeMap]]
+  # No links available w/ Miami-Dade Transit GTFS
+  [[TSOMobile.headsigns]]
 
 [[TSOMobile]]
 name = 'Sunny Isles Beach'
 id = 31344
+  [[TSOMobile.routeMap]]
+
+  [[TSOMobile.headsigns]]
 
 [[TSOMobile]]
 name = 'North Miami Beach'
 id = 31934
+  [[TSOMobile.routeMap]]
+  "76332" = "18112" # Route A (GTFS lists this as "B-Line" even though it's A)
+
+  [[TSOMobile.headsigns]]
+  "76332" = "Route A"
+  "76334" = "Route B"
+  "76338" = "Route C"
 
 [[TSOMobile]]
 name = 'Pinecrest'
