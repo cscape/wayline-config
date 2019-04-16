@@ -10,6 +10,11 @@ module.exports = {
     "CoralGablesETA": "http://cgpublic.etaspot.net/service.php",
     "TriRailETA": "http://trirailpublic.etaspot.net/service.php"
   },
+  "MiamiDadeTransitRouteMap": {
+    "Metrorail": "21024",
+    "MetromoverInnerLoop": "14457",
+    "MetromoverOuterLoop": "14456"
+  },
   "TSOMobile": [
     {
       "name": "Miami Beach",
