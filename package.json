@@ -11,9 +11,13 @@
   "keywords": [
     "wayline"
   ],
+  "files": [
+    "module.js", "routes.js"
+  ],
   "author": "Cyberscape <info@cyberscape.co>",
   "license": "MIT",
   "devDependencies": {
+    "adm-zip": "^0.4.13",
     "axios": "^0.18.0",
     "toml": "^3.0.0"
   }
