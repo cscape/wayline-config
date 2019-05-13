@@ -1,3 +1,4 @@
+/* eslint-disable */
 // THIS IS AN AUTO-GENERATED FILE, DO NOT MANUALLY MODIFY
 
 module.exports = {
@@ -9,6 +10,10 @@ module.exports = {
     "TSOMobile": "https://rest.tsoapi.com/",
     "CoralGablesETA": "http://cgpublic.etaspot.net/service.php",
     "TriRailETA": "http://trirailpublic.etaspot.net/service.php"
+  },
+  "GTFSPlaces": {
+    "MiamiDadeTransit": "https://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+    "SFRTATriRail": "https://www.tri-rail.com/GTDF/Current/google_transit.zip"
   },
   "MiamiDadeTransitRouteMap": {
     "Metrorail": "21024",
