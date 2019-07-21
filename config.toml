@@ -10,11 +10,7 @@ TriRailETA = 'http://trirailpublic.etaspot.net/service.php'
 [GTFSPlaces]
 MiamiDadeTransit = 'https://www.miamidade.gov/transit/googletransit/current/google_transit.zip'
 SFRTATriRail = 'https://www.tri-rail.com/GTDF/Current/google_transit.zip'
-
-[MiamiDadeTransitRouteMap]
-Metrorail = '21024'
-MetromoverInnerLoop = '14457'
-MetromoverOuterLoop = '14456'
+Brightline = 'https://gobrightline.com/gtfs/gtfs.zip'
 
 [[TSOMobile]]
 name = 'Miami Beach'
@@ -43,7 +39,6 @@ id = 21241
   [TSOMobile.routeMap]
   '71269' = '16889' # Allapattah
   '71276' = '16885' # Biscayne
-  '101446' = '16885' # Biscayne (Detoured: remove after 4/21/19)
   '71304' = '16886' # Brickell
   # '95029' No coconut grove route
   '71322' = '16887' # Coral Way
@@ -171,33 +166,33 @@ id = 30109
   # bus names might be listed as only "3779", and appear as "AT3779"
   # with Miami-Dade Transit's own AVL data.
   [TSOMobile.routeMap]
-  '83299' = '20895' # Sweetwater
-  '83294' = '20894' # Overtown
-  '92084' = '20893' # Skylake
-  '94171' = '20884' # Biscayne Gardens
-  '81711' = '20900' # Brownsville
-  '98191' = '21033' # Princeton
-  '81712' = '20904' # North Pointe
-  '81709' = '20860' # Westchester
-  '92085' = '20896' # Bunche Park
-  '82479' = '20819' # 1: SO.MIAMI HTS-PERRINE VIA SOUTHLAND
-  '82499' = '20835' # 29: HIALEAH TRIANGLE-MIAMI LAKES
-  '99843' = '20840' # 35: MDC KENDALL-FLA.CITY VIA CUTLER BAY
-  '99847' = '20840' # 35A: MDC KENDALL-FLA.CITY VIA CUTLER BAY
-  '81708' = '20847' # 46: LIBERTY CITY CONNECTION
-  '92086' = '20851' # 56: CHILDREN HOSP TO 162 AVE VIA 56 ST
-  '92092' = '20854' # 71: DOLPHIN MALL-MDC KEND.VIA 107/112AV
-  '92090' = '20855' # 72: SO.MIAMI-BENT TREE/162AV VIA 72 ST
-  '92089' = '20855' # 72A: SO.MIAMI-BENT TREE/162AV VIA 72 ST
-  '81710' = '20866' # 101: A-VIA VENETIAN CAUSEWAY
-  '98748' = '20876' # 115: MID-NORTH-BEACH CONNECTION
-  '83276' = '20889' # 202: LITTLE HAITI CONNECTION
-  '83339' = '20898' # 246: NIGHT OWL
-  '83303' = '20901' # 267: LUDLAM LIMITED
-  '83348' = '20902' # 272: SUNSET KAT
-  '59434' = '20910' # 301: DADE/MONROE EXPRESS
-  '59545' = '20911' # 302: CARD SOUND EXPRESS
-  '83359' = '20913' # 344: MDC HOMESTEAD TO FLA CITY
+  '83299' = '21396' # Sweetwater
+  '83294' = '21395' # Overtown
+  '92084' = '21394' # Skylake
+  '94171' = '21380' # Biscayne Gardens
+  '81711' = '21404' # Brownsville
+  '98191' = '21402' # Princeton
+  '81712' = '21409' # North Pointe
+  '81709' = '21448' # Westchester
+  '92085' = '21397' # Bunche Park
+  '82479' = '21358' # 1: SO.MIAMI HTS-PERRINE VIA SOUTHLAND
+  '82499' = '21412' # 29: HIALEAH TRIANGLE-MIAMI LAKES
+  '99843' = '21425' # 35: MDC KENDALL-FLA.CITY VIA CUTLER BAY
+  '99847' = '21425' # 35A: MDC KENDALL-FLA.CITY VIA CUTLER BAY
+  '81708' = '21432' # 46: LIBERTY CITY CONNECTION
+  '92086' = '21437' # 56: CHILDREN HOSP TO 162 AVE VIA 56 ST
+  '92092' = '21441' # 71: DOLPHIN MALL-MDC KEND.VIA 107/112AV
+  '92090' = '21442' # 72: SO.MIAMI-BENT TREE/162AV VIA 72 ST
+  '92089' = '21442' # 72A: SO.MIAMI-BENT TREE/162AV VIA 72 ST
+  '81710' = '21360' # 101: A-VIA VENETIAN CAUSEWAY
+  '98748' = '21371' # 115: MID-NORTH-BEACH CONNECTION
+  '83276' = '21389' # 202: LITTLE HAITI CONNECTION
+  '83339' = '21401' # 246: NIGHT OWL
+  '83303' = '21405' # 267: LUDLAM LIMITED
+  '83348' = '21407' # 272: SUNSET KAT
+  '59434' = '21417' # 301: DADE/MONROE EXPRESS
+  '59545' = '21418' # 302: CARD SOUND EXPRESS
+  '83359' = '21424' # 344: MDC HOMESTEAD TO FLA CITY
 
   [TSOMobile.headsigns]
   '83299' = 'Sweetwater Trolley'

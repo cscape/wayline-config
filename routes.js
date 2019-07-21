@@ -745,5 +745,12 @@ module.exports = {
       "route_shortname": "SS 1",
       "route_longname": "3"
     }
+  ],
+  "Brightline": [
+    {
+      "route_id": "B1",
+      "route_shortname": "Brightline",
+      "route_longname": "2"
+    }
   ]
 }
