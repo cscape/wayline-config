@@ -167,7 +167,9 @@ alias = '@MiamiDadeTransit' # Special
 id = 30109
   # These routes may be also tracked by MDT, be wary of data overlap.
   # Buses here have names like "Bus 423" which corresponds
-  # to "LSF423" from Miami-Dade Transit XML Feeds.
+  # to "LSF423" from Miami-Dade Transit XML Feeds. In other cases,
+  # bus names might be listed as only "3779", and appear as "AT3779"
+  # with Miami-Dade Transit's own AVL data.
   [TSOMobile.routeMap]
   '83299' = '20895' # Sweetwater
   '83294' = '20894' # Overtown
